@@ -8,11 +8,11 @@ permalink:  myair_react_rails
 
 This Airbnb clone required quite the setup, but once I got going, it was difficult to pump the breaks. React immediately won my affection, but when Redux appeared, emotions began to shift. After delving into supplemental reading, I began to understand and appreciate the key benefits Redux provides:
 
-1.	***One Store: **
+1. ***One Store:***
 Instead of multiple stores, Redux provides one store (one large JS object) with multiple properties that can get added onto that store. The store can never be mutated or changed, but can only create new versions of the store, resulting in a full history of the app’s state during every phase. 
 
 2.	***Provider Components: ***
-Inherited from Redux, the Provider component’s job is to listen to the store. Since it wraps the entire application, as the store changes, it will in-turn re-render the entire application according to that chang*e.*
+Inherited from Redux, the Provider component’s job is to listen to the store. Since it wraps the entire application, as the store changes, it will in-turn re-render the entire application according to that change.
 
 3.	***Smart/Container Components vs Dumb Components:***
 Smart or top-level components are aware of Redux framework. They can pull properties off the store and inject them in all child components. Dumb components simply re-render whatever is passed into it. It has no knowledge of higher or abstract intelligence. These components can also dispatch actions, which can dispatch other actions.
