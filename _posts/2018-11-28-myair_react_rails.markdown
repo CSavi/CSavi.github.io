@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "MyAir || React+Rails"
-date:       2018-11-28 20:05:53 +0000
+date:       2018-11-28 15:05:54 -0500
 permalink:  myair_react_rails
 ---
 
