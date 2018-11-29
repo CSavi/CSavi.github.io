@@ -12,7 +12,7 @@ This Airbnb clone required quite the setup, but once I got going, it was difficu
 
 Instead of multiple stores, Redux provides one store (one large JS object) with multiple properties that can get added onto that store. The store can never be mutated or changed, but can only create new versions of the store, resulting in a full history of the app’s state during every phase. 
 
-2.	***Provider Components: ***
+2.	***Provider Components:***
 
 Inherited from Redux, the Provider component’s job is to listen to the store. Since it wraps the entire application, as the store changes, it will in-turn re-render the entire application according to that change.
 
